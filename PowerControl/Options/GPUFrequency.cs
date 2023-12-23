@@ -20,6 +20,7 @@ namespace PowerControl.Options
                 options.SetOptions(new PersistedOptions.Option[]
                 {
                     options.ForOption("Default").Set(HardMin, DefaultMin).Set(SoftMax, DefaultMax),
+                    options.ForOption("200MHz").Set(HardMin, 200).Set(SoftMax, DefaultMax),
                     options.ForOption("400MHz").Set(HardMin, 400).Set(SoftMax, DefaultMax),
                     options.ForOption("800MHz").Set(HardMin, 800).Set(SoftMax, DefaultMax),
                     options.ForOption("1200MHz").Set(HardMin, 1200).Set(SoftMax, DefaultMax),
