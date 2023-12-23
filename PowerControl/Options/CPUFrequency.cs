@@ -21,7 +21,6 @@ namespace PowerControl.Options
                 {
                     options.ForOption("Default").Set(SoftMin, DefaultMin).Set(SoftMax, DefaultMax),
                     options.ForOption("eco").Set(SoftMin, 1400).Set(SoftMax, 1400),
-                    options.ForOption("test").Set(SoftMin, 400).Set(SoftMax, 1000),
                     options.ForOption("Max").Set(SoftMin, 3500).Set(SoftMax, 3500),
                 });
             }
