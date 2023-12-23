@@ -32,7 +32,7 @@ namespace FanControl
                             FanMode.SteamOS, new FanSensor.Profile()
                             {
                                 Type = FanSensor.Profile.ProfileType.Constant,
-                                MinRPM = 1500
+                                MinRPM = 1
                             }
                         },
                         {
@@ -60,7 +60,7 @@ namespace FanControl
                             FanMode.SteamOS, new FanSensor.Profile()
                             {
                                 Type = FanSensor.Profile.ProfileType.Quadratic,
-                                MinInput = 55,
+                                MinInput = 58,
                                 MaxInput = 90,
                                 A = 2.286f,
                                 B = -188.6f,
