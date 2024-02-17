@@ -9,7 +9,7 @@ namespace PowerControl.Options
         public const string SoftMax = "SoftMax";
 
         public const int DefaultMin = 200;
-        public const int DefaultMax = 1600;
+        public const int DefaultMax = 1850;
 
         public static PersistedOptions UserOptions()
         {
@@ -25,6 +25,7 @@ namespace PowerControl.Options
                     options.ForOption("800MHz").Set(HardMin, 800).Set(SoftMax, DefaultMax),
                     options.ForOption("1200MHz").Set(HardMin, 1200).Set(SoftMax, DefaultMax),
                     options.ForOption("1600MHz").Set(HardMin, 1600).Set(SoftMax, DefaultMax),
+                    options.ForOption("1850MHz").Set(HardMin, 1850).Set(SoftMax, DefaultMax),
                 });
             }
 
