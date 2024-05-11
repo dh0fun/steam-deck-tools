@@ -18,7 +18,7 @@
         static IntPtr MCBL = new IntPtr(0xFE700B00 + 0x9F);
         static ushort IO6C = 0x6C;
 
-        public const ushort MAX_FAN_RPM = 0x1f40;
+        public const ushort MAX_FAN_RPM = 0x2328;
 
         public struct DeviceVersion
         {
